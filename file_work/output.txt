@@ -1,0 +1,20 @@
+int 
+float#include<stdio.h>
+int main()
+{
+	int a, b;
+	float c;
+
+	printf("Enter the value of a: );
+	scanf("%d",&a);
+
+//asdfsjdfksjdfjasdfjsa
+
+	printf("Enter the value of b: );
+	scanf("%d",&b);
+
+	c = a+b; /*;asjdf;s dfjas fjas;dfjas*/
+
+	printf("Ans: %d",c);
+
+}
