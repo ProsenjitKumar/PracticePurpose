@@ -31,16 +31,28 @@ f_write.write("\n\n*******Without comment Code*******\n\n")
 def skip_comments(file):
     for line in file:
         if not line.lstrip().startswith('//'):
-            line = line.split("//")
-            yield line[0]
+            line_slash = line.split("//")
+            yield line_slash[0]
+        if line.lstrip().startswith('/*'):# and line.lstrip().endswith('*/'):
+            line_asterix = line.split('/*')
+            #line_asterix1 = line.split('*/')
+            yield line_asterix[0]# and line_asterix1[0]
+
+# def skip_comments(file):
+#     for line in file:
+#         index = line.find('//')
+#         index2 = line.find('/*')
+#         if index >= 0:
+#             yield line[:index]
+#         elif index2 >= 0:
+#             yield line[:index2]
+#         else:
+#             yield line
 
 
 f = open('input.txt')
 for line in skip_comments(f):
     f_write.write(line)
-
-
-
 
 f_write.close()
 

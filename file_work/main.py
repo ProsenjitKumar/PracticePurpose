@@ -157,3 +157,11 @@
 #         if i in pro_read.read():
 #             comment_list.append(i)
 # print(comment_list)
+
+def skip_comments(file):
+    for line in file:
+        index = line.find('//')
+        if index >= 0:
+            yield line[:index]
+        else:
+            yield line

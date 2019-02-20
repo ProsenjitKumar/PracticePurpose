@@ -32,7 +32,6 @@ int main()
              //sdgfsdgy usdygfuysgdug usdgfuysdgfug
 
 
-             /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
              # dkfodooi riue9rdkfok
         {
             myOutputFile<<keywords[j]<<endl;    /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
@@ -45,4 +44,31 @@ int main()
 
 *******Without comment Code*******
 
-#include<iostream>#include<fstream>bool keywordmatch(string check, vector<string>keycheck)ze();j++){return false;}int main(){string line;vector <string> keywords;int flag = 0, length = 0;ifstream myInputFile ("input.txt"); # dkfodooi riue9rdkfoko}size();j++)/*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/# dkfodooi riue9rdkfok{myOutputFile<<keywords[j]<<endl;    /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/cout<<keywords[j]<<endl;}}return 0;}
+#include<iostream>
+#include<fstream>
+
+bool keywordmatch(string check, vector<string>keycheck)
+ze();j++)
+           {
+
+   return false;
+}
+int main()
+{
+   string line;
+   vector <string> keywords;
+   int flag = 0, length = 0;
+   ifstream myInputFile ("input.txt"); # dkfodooi riue9rdkfok
+   o
+                   }
+
+             size();j++) 
+
+             # dkfodooi riue9rdkfok
+        {
+            myOutputFile<<keywords[j]<<endl;    /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
+            cout<<keywords[j]<<endl;
+        }
+   }
+   return 0;
+}

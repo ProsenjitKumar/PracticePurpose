@@ -22,7 +22,6 @@ int main()
              //sdgfsdgy usdygfuysgdug usdgfuysdgfug
 
 
-             /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
              # dkfodooi riue9rdkfok
         {
             myOutputFile<<keywords[j]<<endl;    /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
