@@ -1,20 +1,48 @@
+Keyword List
+
 int 
-float#include<stdio.h>
+return 
+do 
+if
+
+
+****Input File Code******
+
+#include<iostream>
+#include<fstream>
+
+bool keywordmatch(string check, vector<string>keycheck)
+ze();j++)
+           {
+
+   return false;
+}
 int main()
 {
-	int a, b;
-	float c;
+   string line;
+   vector <string> keywords;
+   int flag = 0, length = 0;
+   ifstream myInputFile ("input.txt"); # dkfodooi riue9rdkfok
+   o
+                   }
 
-	printf("Enter the value of a: );
-	scanf("%d",&a);
+             size();j++) //sdgfsdgy usdygfuysgdug usdgfuysdgfug
+             //sdgfsdgy usdygfuysgdug usdgfuysdgfug
+             //sdgfsdgy usdygfuysgdug usdgfuysdgfug
+             //sdgfsdgy usdygfuysgdug usdgfuysdgfug
 
-//asdfsjdfksjdfjasdfjsa
 
-	printf("Enter the value of b: );
-	scanf("%d",&b);
-
-	c = a+b; /*;asjdf;s dfjas fjas;dfjas*/
-
-	printf("Ans: %d",c);
-
+             /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
+             # dkfodooi riue9rdkfok
+        {
+            myOutputFile<<keywords[j]<<endl;    /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/
+            cout<<keywords[j]<<endl;
+        }
+   }
+   return 0;
 }
+
+
+*******Without comment Code*******
+
+#include<iostream>#include<fstream>bool keywordmatch(string check, vector<string>keycheck)ze();j++){return false;}int main(){string line;vector <string> keywords;int flag = 0, length = 0;ifstream myInputFile ("input.txt"); # dkfodooi riue9rdkfoko}size();j++)/*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/# dkfodooi riue9rdkfok{myOutputFile<<keywords[j]<<endl;    /*sdgfsdgy usdygfuysgdug usdgfuysdgfug*/cout<<keywords[j]<<endl;}}return 0;}

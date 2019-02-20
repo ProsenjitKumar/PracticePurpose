@@ -138,3 +138,22 @@
 # with open('input.txt', 'rb') as file_in:
 #     with open("output.txt", "wb") as file_out:
 #         file_out.writelines(filter(lambda line: b'lines with this text' in line, file_in))
+
+
+# **************** comment out **************
+
+
+# for line in (l.split('//')[0].strip() for l in open('input.txt', mode='r') if l.split('//')[0].strip()):
+#     f_write.write(line)
+
+# for line in (l for l in open('input.txt', mode='r') if not l.lstrip().startswith('//')):
+#     f_write.write(line)
+
+# f_write.write("\n\n*******comment*******\n\n")
+# comment_list = []
+#
+# for i in comments:
+#     with open('input.txt', mode='r') as pro_read:
+#         if i in pro_read.read():
+#             comment_list.append(i)
+# print(comment_list)
